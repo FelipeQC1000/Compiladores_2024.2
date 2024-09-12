@@ -10,13 +10,11 @@ public class Main {
             var finalArgs = new java.util.ArrayList<>(Arrays.stream(args).toList());
 
             if (finalArgs.isEmpty()) {
-                System.out.println("Defaulting to generating java code from ./input.isi file");
-                System.out.println("Defaulting to printing generated code to stdout");
-
-                System.out.println("To change the default behaviour, use one of the following options:");
-                System.out.println("  --target <target>  : specify the target language (java, c) or 'interpret' for interpreting the code or 'repl' for interactive mode");
-                System.out.println("  --input <input>    : specify the input file");
-                System.out.println("  --output <output>  : specify the output file");
+                System.out.println("\nPor padrão, o programa roda gerando código em Java a partir do arquivo input.isi, e imprime o resultado no Terminal.");
+                System.out.println("Se deseja mudar este comportamento, adicione:");
+                System.out.println("  --target + 'java', 'c', 'interpret' ou 'REPL' para gerar código de Java, C, rodar como interpretador, ou de forma interativa, respectivamente.");
+                System.out.println("  --input + <caminho do arquivo> para definir o código que o programa lê a partir de um arquivo.");
+                System.out.println("  --output + <caminho destino> para definir onde o código deve imprimir o resultado.");
                 System.out.println();
 
                 finalArgs.add("--target");
