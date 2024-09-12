@@ -1,0 +1,17 @@
+programa
+    inteiro i = 0;
+    texto j = "eh dois!";
+    texto k = "nao eh dois!";
+    booleano p = verdadeiro;
+inicio
+    receba(i);
+    enquanto (i != 0) {
+        imprima(i);
+        se (i == 2) {
+            imprima(j);
+        } senao {
+            imprima(k);
+        }
+        receba(i);
+    }
+fimprog.
