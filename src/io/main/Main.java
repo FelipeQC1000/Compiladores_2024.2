@@ -13,11 +13,9 @@ public class Main {
             Arguments.add("java");
             Arguments.add("--input");
             Arguments.add("input.isi");
-            System.out.println("\nPor padrão, o programa roda gerando código em Java a partir do arquivo input.isi, e imprime o resultado no Terminal. Se deseja mudar este comportamento, adicione:");
-            System.out.println("  --target + 'java', 'c', 'interpret' ou 'repl' para gerar código de Java, C, rodar como interpretador, ou de forma interativa, respectivamente.");
-            System.out.println("  --input + <caminho do arquivo> para definir o código que o programa lê a partir de um arquivo.");
-            System.out.println("  --output + <caminho destino> para definir onde o código deve imprimir o resultado.");
-            System.out.println();
+            System.out.println("\nPor padrão, o programa roda gerando código em Java a partir do arquivo input.isi, e imprime o resultado no Terminal.");
+            System.out.println("Se deseja mudar este comportamento, adicione: --target para definir o modo (java, interpret, repl, ou c), --input para definir arquivo de entrada,");
+            System.out.println("e --output para definir caminho de saída.\n");
         }
         ArgumentParser argumentParser = new ArgumentParser();
         var settings = argumentParser.parse(Arguments);
