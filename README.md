@@ -8,7 +8,7 @@ Felipe Quelhas Cardim - RA: 11202111295
 Link do vídeo:
 
 --------------------------------------------------------------------------------------
-Itens opcionais feitos:
+## Itens opcionais feitos:
 
 3- Inserção de Operadores Lógicos;
 
