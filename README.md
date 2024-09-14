@@ -9,6 +9,9 @@ Link do vídeo:
 
 --------------------------------------------------------------------------------------
 Itens opcionais feitos:
+
 3- Inserção de Operadores Lógicos;
+
 4- Geração de Várias Linguagens-alvo (Java e C);
+
 6- Interpretador (runtime) para a máquina.
