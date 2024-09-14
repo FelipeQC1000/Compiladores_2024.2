@@ -10,7 +10,7 @@ Link do vídeo: https://youtu.be/rBuhvmGaNfk?si=D9vVU7JXKSNN2ubN
 --------------------------------------------------------------------------------------
 ## Itens opcionais feitos:
 
-2- Avaliador de expressões aritméticas
+2- Avaliador de expressões aritméticas;
 
 3- Inserção de Operadores Lógicos;
 
